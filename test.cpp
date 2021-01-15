@@ -3,6 +3,15 @@
 
 using namespace std;
 
+bool hasduplic(std::vector<int> input)
+{
+    for(int c = 0; c < input.size(); c++)
+    {
+        cout << input.at(c) << endl;
+    }
+    return true;
+}
+
 double calcAdd(double a, double b)
 {
     return a + b;
