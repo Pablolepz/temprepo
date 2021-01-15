@@ -1,7 +1,24 @@
 #include <stdio.h>
 #include <iostream>
+#include <vector>
+#include <set>
 
 using namespace std;
+
+bool hasduplic(std::vector<int> input)
+{
+    std::set<int> tmpSet;
+    set<int>::iterator itr;
+    for(int c = 0; c < input.size(); c++)
+    {
+        tmpSet.insert(input.at(c));
+        for (itr = tmpSet.begin(); itr != tmpSet.end(); ++itr) 
+        {
+            cout << *itr << ",";
+        }
+    }
+    return true;
+}
 
 double calcAdd(double a, double b)
 {
@@ -48,6 +65,10 @@ int main(){
         return 1;
     }
     
+    //unduplic test
+    std::vector<int> inputVec = {1,4,4,5,6};
+
+    hasduplic(inputVec);
     
     return 0;
 }
