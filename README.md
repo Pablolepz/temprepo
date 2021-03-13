@@ -1,2 +1,2 @@
 # temprepo
-swag
+Temporary repo for explaining git

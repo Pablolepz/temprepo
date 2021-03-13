@@ -17,6 +17,7 @@ int calcAddInt(int a, int b)
 int main(){
 
     std::cout << "test" << std::endl;
+    std::cout << "new_line" << std::endl;
     int x = 0;
 
 
