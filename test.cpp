@@ -3,7 +3,6 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 int calcTwoInts(ints x, ints y)
 {
    return x + y;
@@ -11,14 +10,6 @@ int calcTwoInts(ints x, ints y)
 
 
 
-=======
-int calcTwoInt(ints a, ints b)
-{
-   return b + a;
-}
-
-
->>>>>>> 6f356291fb2f8d1fe56e30016574ea57e805e51b
 double calcAdd(double a, double b)
 {
     return a + b;
