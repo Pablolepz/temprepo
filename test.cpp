@@ -3,6 +3,12 @@
 
 using namespace std;
 
+int calcTwoInt(ints a, ints b)
+{
+   return b + a;
+}
+
+
 double calcAdd(double a, double b)
 {
     return a + b;
@@ -48,7 +54,7 @@ int main(){
         cout << "calcAdd fail" << endl;
         return 1;
     }
-    
-    
+
+
     return 0;
 }
